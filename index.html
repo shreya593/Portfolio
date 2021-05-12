@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>hreya <span>J</span>aiswal</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">What I do?</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Shreya <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">What .<span>I .</span>Do ?</h1>
+        <p>I design and code beautifully simple things, and I love what I do.Since beginning my journey as an 
+          undergraduate, I have tried my hands on so many things and developed my problem solving and programming
+           skills and explore myself as a UI/UX designer too I've done remote work for companies like Kutumbh 
+           Care Networks(as Designer), Team Hi-Tech(as Android developer) and collaborated with talented people 
+           to create digital products for both business and consumer use. I'm quietly confident, naturally
+            curious, and perpetually working on improving my chops one design problem as well problem solving 
+            skills at a time.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Designing</h2>
+          <p>I value simple content structure, clean design patterns, and thoughtful interactions.  <br>
+          Things I enjoy designing:   <br> 
+          UX, UI, Web, Mobile, Apps, Logos<br>
+          Design Tools:<br>
+          Adobe Illustrator, Figma, Adobe Photoshop, Adobe XD, Sketch, CorelDraw</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Front-end Development</h2>
+          <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.<br>
+          Languages I speak:<br>
+          HTML, CSS<br>
+          Dev Tools:<br> Android Studio<br> Sublime Text 3<br> Github<br> Brackets</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Back-end Development</h2>
+          <p>I am an individual with a great passion for the programming and problem solving.I am eager to be challenged in order to grow and further improve my skills.<br>
+            Programming Languages I use:<br>
+            JAVA, C++, Python, SQL<br>
+            Platforms:<br>
+            AWS, Firebase</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Experience</h2>
+          <p>I've done remote work for companies like Kutumbh 
+           Care Networks(as Designer), Team Hi-Tech(as Android developer), GeeksforGeeks(as Technical Script Writer)<br>
+           My Works :Successfully published 8 articles on geeksforgeeks, Developed food delivery app , Designed posters,logos,webpages,app ui</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Book Bazaar</h1>
+            <h2>Buy and Sell second hand books</h2>
+            <p>It helps you to buy and sell second hand books in easy way, the app has 2000+ downloads on playstore.
+               Features : UPI Payment, Manual Registeration, Authentication using google OAuth, Verification by Admin 
+               App, Filters Available(filter by book and filter by location).Platform & IDE - Firebase & Android Studio
+               Database/Storage - Realtime Database , Firestore, Firebase Storage Others -Google Apis PlayStore link : https://play.google.com/store/apps/details?id=com.MJ.buyandselling</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Zokoma</h1>
+            <h2>Food delivery app</h2>
+            <p>Developing Food delivery application on Android Studio code written in JAVA and XML. App contains authentication using 
+               OTP, backened is integreated using MySql database and PHP as a server language. This project contains three apps 1)User App , 2)Restaurant App and 3)Delivery Boy app.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>AWS - dynamoDB</h1>
+            <h2>My Lists</h2>
+            <p>This is the todo app where you can write your daily tasks and the data get stored in dynamo DB AWS 
+              and code written in JAVA on android studio IDE.Features : Data gets stored in todo table(dynamo DB) and 
+              fetched successfully.Platform Used : Android Studio, AWS(DynamoDB + IAM + Amplify + GrapgQL). Language 
+              Used : JAVA, XML. Github Link : https://github.com/shreya593/Shreyaawsapp</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Entertainment Box</h1>
+            <h2>All in one app</h2>
+            <p>If you have Low memory phone and wanna enjoy all entertaining apps than go to Entertainment Box. Github Link : https://github.com/shreya593/Entertainment-Box-1</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Designing Projects</h1>
+            <h2>App UI/Webpages/Posters/Logos</h2>
+            <p>Here i am sharing my all designing projects which i made while my internship. Link: https://drive.google.com/drive/folders/18IdhIWixyXdhoTDEAg4yDzoddY0iGuuF?usp=sharing</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/WhatsApp Image 2021-05-04 at 8.38.52 PM.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Programmer | App Developer | UI/UX Designer</h2>
+        <p>I am a hardworking and logical mind individual with a great passion for the programming and problem
+           solving.I am eager to be challenged in order to grow and further improve my skills. I also have good 
+           communication skills, enabling me to effectively communicate with a wide range of people.I am currently pursuing my B.tech degree from SRM Institute of Science and Technology Kattankulathur Chennai</p>
+        <a href="https://drive.google.com/file/d/1QySMX7gPWpHvVBHHGXRN6BjrVxGXJvXW/view?usp=sharing" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 6387608164</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>shreyajaiswal593@gmail.com</h2>
+            <h2>sj9911@srmist.edu.in</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Sujabad Parao, Varanasi, Uttar Pradesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>hreya <span>J</span>aiswal</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100015730127250"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://instagram.com/shreyajaiswal96?igshid=1lih7z68a9cp4"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/Shreya45512656?s=08"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://dribbble.com/shreya593"><img src="./img/download.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 Shreya Jaiswal. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
